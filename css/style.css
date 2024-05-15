@@ -435,3 +435,28 @@ a:focus {
           align-items: center;
   font-size: 15px;
 }
+.shop_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+.shop_section .btn-box a {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #f0d43a;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #f0d43a;
+}
+
+.shop_section .btn-box a:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
