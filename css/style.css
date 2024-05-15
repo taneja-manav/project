@@ -479,3 +479,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.about_section .img-box img {
+  width: 100%;
+  max-width: 375px;
+}
