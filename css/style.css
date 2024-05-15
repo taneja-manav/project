@@ -417,3 +417,21 @@ a:focus {
   color: #3b4a6b;
   font-weight: 600;
 }
+.shop_section .box .new {
+  padding: 7px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f0d43a;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
